@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="verde" style="height: 451px; background-color: rgba(0, 255, 9, 255); align-items: center; justify-content: center;">
+        <ui:VisualElement name="rojo" style="background-color: rgba(255, 0, 21, 255); height: 300px; width: 100px; align-items: center; justify-content: space-around;">
+            <ui:VisualElement name="naranja" style="background-color: rgba(255, 145, 0, 255); height: 200px; width: 50px; align-items: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
