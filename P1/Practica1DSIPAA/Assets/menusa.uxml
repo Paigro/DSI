@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Menusito.uss?fileID=7433441132597879392&amp;guid=ed281d9c4b9c2664ba9a82b45a9a2b2f&amp;type=3#Menusito" />
+    <ui:VisualElement name="Portada" class="MenuStyleSheet" style="flex-grow: 1; background-color: rgb(183, 0, 0); width: 28%; -unity-text-outline-color: rgba(255, 255, 255, 0); -unity-text-outline-width: 0; align-self: auto; justify-content: center; align-items: center; -unity-background-scale-mode: stretch-to-fill;">
+        <ui:VisualElement name="Titulo" style="flex-grow: 1; background-color: rgba(255, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 0, 0);">
+            <ui:Label tabindex="-1" text="Pasti&#10;di&#10;Iglessi" display-tooltip-when-elided="true" enable-rich-text="true" style="width: 100%; height: auto; -unity-text-align: middle-center; font-size: 110%; -unity-font: url(&apos;project://database/Assets/Italianno-Regular.ttf?fileID=12800000&amp;guid=d7ae89e960c822446a4671aa650e0bdb&amp;type=3#Italianno-Regular&apos;); -unity-font-style: normal; -unity-font-definition: initial; letter-spacing: 17px; -unity-paragraph-spacing: -60px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: center; align-self: center; align-items: center; width: 530px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="align-self: center; -unity-text-outline-color: rgba(255, 255, 255, 0); background-color: rgb(255, 255, 255);" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="align-self: center;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="align-self: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: none; -unity-text-align: middle-center; align-items: center; justify-content: flex-end; align-self: stretch; height: 195px;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/passti.png?fileID=2800000&amp;guid=0afeea7039f1a784fa2dcf4d5c147562&amp;type=3#passti&apos;); width: 284px; height: 123px; -unity-text-align: middle-center; align-items: center; justify-content: center; align-self: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
