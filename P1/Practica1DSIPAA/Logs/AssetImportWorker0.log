@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 32509 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 32038 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\UNITY Versions\2022.3.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Andrés/UNIVERSIDAD (2023-2024)/DSI/REPOSITORIO GITHB/DSI/P1/Practica1DSIPAA
+C:/Users/Andrés/Documents/GitHub/DSI/P1/Practica1DSIPAA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52851
-Successfully changed project path to: E:/Andrés/UNIVERSIDAD (2023-2024)/DSI/REPOSITORIO GITHB/DSI/P1/Practica1DSIPAA
-E:/Andrés/UNIVERSIDAD (2023-2024)/DSI/REPOSITORIO GITHB/DSI/P1/Practica1DSIPAA
+53425
+Successfully changed project path to: C:/Users/Andrés/Documents/GitHub/DSI/P1/Practica1DSIPAA
+C:/Users/Andrés/Documents/GitHub/DSI/P1/Practica1DSIPAA
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,64 @@ E:/Andrés/UNIVERSIDAD (2023-2024)/DSI/REPOSITORIO GITHB/DSI/P1/Practica1DSIPAA
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32964] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 1298875467 [EditorId] 1298875467 [Version] 1048832 [Id] WindowsEditor(7,Family) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [555436] Host "[IP] 10.8.72.28 [Port] 0 [Flags] 2 [Guid] 1351840287 [EditorId] 1351840287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI8C72U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32964] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 1298875467 [EditorId] 1298875467 [Version] 1048832 [Id] WindowsEditor(7,Family) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [555436] Host "[IP] 10.8.72.28 [Port] 0 [Flags] 2 [Guid] 1351840287 [EditorId] 1351840287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI8C72U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
-[Subsystems] Discovering subsystems at path E:/UNITY Versions/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Andrés/UNIVERSIDAD (2023-2024)/DSI/REPOSITORIO GITHB/DSI/P1/Practica1DSIPAA/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andrés/Documents/GitHub/DSI/P1/Practica1DSIPAA/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
     Vendor:   NVIDIA
-    VRAM:     12086 MB
-    Driver:   31.0.15.5123
+    VRAM:     7957 MB
+    Driver:   31.0.15.5152
 Initialize mono
-Mono path[0] = 'E:/UNITY Versions/2022.3.5f1/Editor/Data/Managed'
-Mono path[1] = 'E:/UNITY Versions/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/UNITY Versions/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/UNITY Versions/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001830 seconds.
-- Loaded All Assemblies, in  0.264 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005371 seconds.
+- Loaded All Assemblies, in  0.294 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.151 seconds
-Domain Reload Profiling: 415ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 504ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (84ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (112ms)
 			TypeCache.Refresh (111ms)
 				TypeCache.ScanAssembly (100ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (151ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (212ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (118ms)
+		SetupLoadedEditorAssemblies (165ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (77ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,57 +114,57 @@ Domain Reload Profiling: 415ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Andrés\UNIVERSIDAD (2023-2024)\DSI\REPOSITORIO GITHB\DSI\P1\Practica1DSIPAA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Andrés\UNIVERSIDAD (2023-2024)\DSI\REPOSITORIO GITHB\DSI\P1\Practica1DSIPAA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.390 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrés\Documents\GitHub\DSI\P1\Practica1DSIPAA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrés\Documents\GitHub\DSI\P1\Practica1DSIPAA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.709 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.320 seconds
-Domain Reload Profiling: 710ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (10ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (159ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (131ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (320ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (580ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (60.8 KB). Loaded Objects now: 4477.
-Memory consumption went from 141.0 MB to 140.9 MB.
-Total: 2.435700 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.114600 ms MarkObjects: 1.959300 ms  DeleteObjects: 0.107500 ms)
+Unloading 63 unused Assets / (60.4 KB). Loaded Objects now: 4477.
+Memory consumption went from 140.2 MB to 140.1 MB.
+Total: 7.445800 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.279200 ms MarkObjects: 6.407000 ms  DeleteObjects: 0.241900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,481 +181,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22852.248206 seconds.
-  path: Assets/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(0c466702e2a91024c950c6eb41ba9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(0c466702e2a91024c950c6eb41ba9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb969b2ee0ea719e05208fdfd4554800') in 0.152572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 2090.745395 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(35f8745de193f1e45afd19a6c16ff8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(35f8745de193f1e45afd19a6c16ff8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2be0d0fd96815e93a817bb18a4a5c8e') in 0.000333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.968253 seconds.
-  path: Assets/Italianno
-  artifactKey: Guid(13814bc228d96ad4495911a0f0b59f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Italianno using Guid(13814bc228d96ad4495911a0f0b59f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea373e367436358ed12bfcbff7ea7780') in 0.000260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2460.794232 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7344ac6b78e14bb2d5887c93a67acaa') in 0.005942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 364.691875 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feced6bfc75345d53e5e090d406e34f') in 0.002844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1159.718271 seconds.
-  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(89463aec9eada7c4787e84519d9dcb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(89463aec9eada7c4787e84519d9dcb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9048093ec84de6f64faf77ff8b60cdb') in 0.080453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 538.485293 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ae830b76b90ee69e6735c7802fe6d9') in 0.002758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 393.235407 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83535f7e9c887837d2c888e9cac8572') in 0.002270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 23.199621 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649f072a4e2320a58938bf533e0f3261') in 0.003468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 61.015760 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aacd490f56ebe090f31113f42e8b56') in 0.003464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 50.901040 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e3e573b99197ca31cb77b07724aeed') in 0.001919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 106.392397 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560bbfd51f9b2bbc363db277df9fcc8a') in 0.002476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 39.611331 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c39ab5f7b1dac39eec5a5ca6d87c69') in 0.003551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 2599.661056 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed3762bfbfb7033978e917da903107') in 0.002019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 195.830496 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7460740691c912e60d5601861b64b31') in 0.002322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 27.721353 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe70b10040f8b67bf64db8ea7db9cc0') in 0.002267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 23.686228 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf1b88c8e00df47dd0906a878b5f67f') in 0.001946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 119.819616 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9676c7e1344238c9607eb7e68a120c8') in 0.001701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 1952.840730 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770fb0eba28e2c03a9e4d49f4b641e87') in 0.002857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 126.032708 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e237cb77cf19db39cdc6e04906e62') in 0.003030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 38.201633 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3884a02774240f479c4233d3d134c85') in 0.002686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 162.672025 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a97e573b3c77aa1312a9788d147965') in 0.002197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 423.759640 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5316f185968c853457eefb0263c7330') in 0.002457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 99.283461 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f602a7dca369077e3d2d0b4a3b37e399') in 0.002312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 71.350796 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7236ecf5818fff92566c1c6b65be99df') in 0.002566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 22.097814 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cef352b0f815581a0f5c5c4cf7fe59') in 0.002267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 345.098957 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e7ad6562559f3a10fd69021493c250') in 0.002549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 310.574525 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0daed0dc91343eee2b97b275aa7027') in 0.002818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 79.574768 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c60d4839f543a71106d9c298bcf7d6') in 0.002269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 253.722878 seconds.
-  path: Assets/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(1435d33069b32224f9ca551566f1cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(1435d33069b32224f9ca551566f1cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b758fba095ca61bbc7581d9875a89') in 0.024762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 168.000978 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70eb4da357aa1ef4ef422c14543f52b') in 0.002781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 89.790826 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d55e461e636cd0d9b08a6e7966b650') in 0.002118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 260.836217 seconds.
-  path: Assets/Images
-  artifactKey: Guid(530fcad73cc779e4ebfe85139a84992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(530fcad73cc779e4ebfe85139a84992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c814ffa753a51a88b3b16f9d0f574f') in 0.000451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.140368 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d512e30cc1c18fd9c9e01105161d6b') in 0.002714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 23.607308 seconds.
-  path: Assets/Espagueti.png
-  artifactKey: Guid(68544fa255bc10244beb48f3188e1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Espagueti.png using Guid(68544fa255bc10244beb48f3188e1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc67ec27c4baaeaab655a835319df16') in 0.022167 seconds
+  Time since last request: 273843.312096 seconds.
+  path: Assets/Cheesecake.png
+  artifactKey: Guid(9e2883d50341e1041a29dd539a090bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cheesecake.png using Guid(9e2883d50341e1041a29dd539a090bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45217aecce88ff03b9d9abcc896b7fea') in 0.096586 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 636.328846 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b6bba71b191fa6e839ae14f3887b07') in 0.003628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 36.640951 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eaf69bd34859c3fd4003ecc7fec239') in 0.003435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 74.963492 seconds.
-  path: Assets/fettuccine.png
-  artifactKey: Guid(ff7d019bd9f7b0d4eae5c09ec870c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/fettuccine.png using Guid(ff7d019bd9f7b0d4eae5c09ec870c729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2ad843156f8560427dc8506fdee5b4') in 0.015510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 88.220748 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35408771b38895cf33d91f184ff9fe') in 0.004945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 111.574758 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26e976bdc83e3de786d9e9caea2434f') in 0.004510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 39.703008 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b5faadaa4babd2df5e3f826d319b28') in 0.004458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 18.292822 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52a29b4e5410a718e16c0a624764db7') in 0.003912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 193.033388 seconds.
-  path: Assets/Rigatoni.png
-  artifactKey: Guid(bcd16a93115a9764ea11a8e9e44d7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rigatoni.png using Guid(bcd16a93115a9764ea11a8e9e44d7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabfb32845a42d36859fce6de19a3272') in 0.014487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 40.043809 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853faa46f9fcb5115051e8b8ab66870') in 0.011683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 35.636980 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a5cb28b8128d5850513da5621fd189') in 0.005756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 48.469401 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73524af08355138bdb8ce182b3b582f') in 0.005198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1717.780208 seconds.
-  path: Assets/Boloñesa.png
-  artifactKey: Guid(18fb8b199cabbdb42877ae2fe3170782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boloñesa.png using Guid(18fb8b199cabbdb42877ae2fe3170782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6cebf530d672fde1b1224a2513e278') in 0.018831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 324.542418 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ab5aaf1422e0ccd02c60c96a98268b') in 0.006231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 693.402655 seconds.
-  path: Assets/Arrabiata.png
-  artifactKey: Guid(ac08273be5321874fb59e40409949f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arrabiata.png using Guid(ac08273be5321874fb59e40409949f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96d4c99fd32eac31c43d4eb43900fa5') in 0.011027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Carbonara.png
-  artifactKey: Guid(d1bae8ae03698ea498c6cd2e8cf3576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Carbonara.png using Guid(d1bae8ae03698ea498c6cd2e8cf3576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe4f0ae9ae7357cbcd863719b0bbc1e') in 0.007818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 255.660289 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b0b22447515f01ea4e1ba3fb94fc2') in 0.008788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 37.483778 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff4a56472219ce95ad45640d3784ee1') in 0.005868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 33.812857 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5184f4dd137c38a0394fbf2bba41b056') in 0.005997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 516.873840 seconds.
-  path: Assets/CocaCola.png
-  artifactKey: Guid(f53b47beec2f68640bcc9df2fca3cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CocaCola.png using Guid(f53b47beec2f68640bcc9df2fca3cf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bba57dbd18d5ae3b33c48b4586d2e7') in 0.013708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Vino Blanco.png
-  artifactKey: Guid(b5168be2730cc864da60b652894da57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vino Blanco.png using Guid(b5168be2730cc864da60b652894da57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b04bbc5ecdbff053cca9439b5346ee') in 0.011235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 184.310866 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f66d40d738592132a50728db845d5fa') in 0.010174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 265.917143 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4445cadd7ff23cdb71d15fe343caa2a') in 0.006518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 410.210571 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f74dce6f1197188a519be3c03f7055') in 0.012483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 30.823732 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f5bec56aa73cec269bb5b375178a85') in 0.012161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 27.456815 seconds.
-  path: Assets/menusa.uxml
-  artifactKey: Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/menusa.uxml using Guid(761ce5cbe1f1a234e96668a78de0c055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7213e822e1d1cb9cf66ee49b83a66ab3') in 0.012494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15

@@ -1,2 +1,22 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/uss/Lab4.uss?fileID=7433441132597879392&amp;guid=e3e19de6e12f92f43be22ef3086c9db3&amp;type=3#Lab4" />
+    <ui:VisualElement class="Content" style="height: 100%; width: 100%; align-items: center;">
+        <ui:Label text="Flesbos   " display-tooltip-when-elided="true" />
+        <ui:GroupBox name="Botones" class="Botones" style="align-items: center; justify-content: center; min-width: auto; min-height: auto; width: 100%; height: 33%; flex-direction: row; flex-wrap: nowrap;">
+            <ui:IMGUIContainer name="BotPicante" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=cffcd2374ef659840aaf9d756d71c4e9&amp;type=3#arrow-left@2x&apos;); -unity-slice-left: 0; -unity-slice-top: 0; max-width: none; max-height: none; width: 150px; height: 150px; justify-content: flex-end; align-items: stretch;" />
+            <ui:IMGUIContainer name="BotPrecio" style="background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png?fileID=2800000&amp;guid=9125c204f566db048a92ebcb64d9d14a&amp;type=3#Bone@4x&apos;); -unity-slice-left: 0; -unity-slice-top: 0; max-width: none; max-height: none; width: 150px; height: 150px; justify-content: flex-end; align-items: stretch;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="Precio" class="Niveles" style="align-items: stretch; justify-content: space-between; min-width: auto; min-height: auto; width: 100%; height: 33%; flex-direction: row;">
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=cffcd2374ef659840aaf9d756d71c4e9&amp;type=3#arrow-left@2x&apos;);" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=cffcd2374ef659840aaf9d756d71c4e9&amp;type=3#arrow-left@2x&apos;);" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=cffcd2374ef659840aaf9d756d71c4e9&amp;type=3#arrow-left@2x&apos;);" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&amp;guid=cffcd2374ef659840aaf9d756d71c4e9&amp;type=3#arrow-left@2x&apos;);" />
+        </ui:GroupBox>
+        <ui:GroupBox name="Picante" class="Niveles" style="align-items: stretch; justify-content: space-between; min-width: auto; min-height: auto; width: 100%; height: 33%; flex-direction: row;">
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png?fileID=2800000&amp;guid=9125c204f566db048a92ebcb64d9d14a&amp;type=3#Bone@4x&apos;); -unity-slice-left: 0; -unity-slice-top: 0;" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png?fileID=2800000&amp;guid=9125c204f566db048a92ebcb64d9d14a&amp;type=3#Bone@4x&apos;); -unity-slice-left: 0; -unity-slice-top: 0;" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png?fileID=2800000&amp;guid=9125c204f566db048a92ebcb64d9d14a&amp;type=3#Bone@4x&apos;); -unity-slice-left: 0; -unity-slice-top: 0;" />
+            <ui:IMGUIContainer name="imgTop1" class="Nivel" style="background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@4x.png?fileID=2800000&amp;guid=9125c204f566db048a92ebcb64d9d14a&amp;type=3#Bone@4x&apos;); -unity-slice-left: 0; -unity-slice-top: 0;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
 </ui:UXML>

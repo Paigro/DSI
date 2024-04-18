@@ -5,14 +5,34 @@ using UnityEngine.UIElements;
 
 public class Lab4 : MonoBehaviour
 {
+    VisualElement contenedorBot, botPicante, botPrecio, item3;
     private void OnEnable()
     {
-        UIDocument uidoc = GetComponent<UIDocument>();
-        VisualElement rootve = uidoc.rootVisualElement;
+        VisualElement rootve = GetComponent<UIDocument>().rootVisualElement;
 
-        UQueryBuilder<VisualElement> builder = new(rootve);
-        List<VisualElement> lista_ve = builder.ToList();
+        contenedorBot = rootve.Q("Botones");
+        botPicante = rootve.Q("BotPicante");
+        botPrecio = rootve.Q("BotPrecio");
 
-        lista_ve.ForEach(e => Debug.Log(e.name));
+        item3 = new VisualElement();
+        item3.name = "item3";
+        item3.style.height = 200;
+        item3.style.width = 200;
+        item3.style.backgroundColor = Color.blue;
+
+        contenedorBot.Add(item3);
+
+        Debug.Log("OnEnable");
+        Debug.Log(item3);
+    }
+
+    private void Update()
+    {
+       // Debug.Log("Update");
+    }
+
+    private void LateUpdate()
+    {
+       // Debug.Log("LateUpdate");
     }
 }
