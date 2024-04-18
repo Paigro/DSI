@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.UIElements;
+using System.Linq;
 
 public class Lab3 : MonoBehaviour
 {
@@ -11,7 +12,38 @@ public class Lab3 : MonoBehaviour
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
 
-        VisualElement green = root.Q("verde");
+        VisualElement tapete = root.Q("Tapete");
+
+        //tapete.AddManipulator(new Lab3Manipulator());
+
+        VisualElement cartas1_3 = root.Q("Cartas1-3");
+        VisualElement cartas4_6 = root.Q("Cartas4-6");
+        VisualElement cartas7_9 = root.Q("Cartas7-9");
+
+
+        List<VisualElement> l_cartas1_3 = cartas1_3.Children().ToList();
+        List<VisualElement> l_cartas4_6 = cartas4_6.Children().ToList();
+        List<VisualElement> l_cartas7_9 = cartas7_9.Children().ToList();
+
+        l_cartas1_3.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
+        l_cartas4_6.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
+        l_cartas7_9.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
+
+
+
+
+
+        /*left.RegisterCallback<ClickEvent>(ev =>
+        {
+            (ev.target as VisualElement).style.backgroundColor = Color.red;
+        }, TrickleDown.TrickleDown);
+
+        right.RegisterCallback<ClickEvent>(ev =>
+        {
+            (ev.target as VisualElement).style.backgroundColor = Color.red;
+        }, TrickleDown.TrickleDown);*/
+
+        /*VisualElement green = root.Q("verde");
         VisualElement red = root.Q("rojo");
         VisualElement oranje = root.Q("naranja");
 
@@ -38,26 +70,6 @@ public class Lab3 : MonoBehaviour
             Debug.Log("Naranja current target: " + (ev.currentTarget as VisualElement).name);
             Debug.Log("Naranja target: " + (ev.target as VisualElement).name);
             ev.StopPropagation();
-        });
-    }
-
-
-
-
-
-
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        });*/
     }
 }
