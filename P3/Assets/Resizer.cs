@@ -14,7 +14,7 @@ public class ExampleResizer : PointerManipulator
     public ExampleResizer()
     {
         m_PointerId = -1;
-        activators.Add(new ManipulatorActivationFilter { button = MouseButton.LeftMouse });
+        activators.Add(new ManipulatorActivationFilter { button = MouseButton.MiddleMouse });
         m_Active = false;
     }
 
