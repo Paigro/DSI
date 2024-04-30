@@ -14,7 +14,7 @@ public class Lab3 : MonoBehaviour
 
         VisualElement tapete = root.Q("Tapete");
 
-        //tapete.AddManipulator(new Lab3Manipulator());
+        //tapete.AddManipulator(new Lab3Manipulator()); // Lo quito para que no se pueda cambiar el color del borde del tapete cuando pases el raton.
 
         VisualElement cartas1_3 = root.Q("Cartas1-3");
         VisualElement cartas4_6 = root.Q("Cartas4-6");
@@ -24,6 +24,10 @@ public class Lab3 : MonoBehaviour
         List<VisualElement> l_cartas1_3 = cartas1_3.Children().ToList();
         List<VisualElement> l_cartas4_6 = cartas4_6.Children().ToList();
         List<VisualElement> l_cartas7_9 = cartas7_9.Children().ToList();
+
+        l_cartas1_3.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
+        l_cartas4_6.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
+        l_cartas7_9.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
 
         l_cartas1_3.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
         l_cartas4_6.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
