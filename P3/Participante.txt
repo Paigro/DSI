@@ -1,0 +1,10 @@
+--Personas:
+Andrés García Navarro
+Andrés marín
+Pablo Iglesias Rodrigo
+
+--Funcionalidad:
+Para cambiar el tamaño de las cartas hay que
+hacer click izquierdo y usar la rueda del raton
+a ala vez. Se cambia el color del borde cuando
+el raton esta sobre una carta.

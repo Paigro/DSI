@@ -29,10 +29,9 @@ public class Lab3 : MonoBehaviour
         l_cartas4_6.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
         l_cartas7_9.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
 
-        l_cartas1_3.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
-        l_cartas4_6.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
-        l_cartas7_9.ForEach(elem => elem.AddManipulator(new Lab3Manipulator()));
-
+        l_cartas1_3.ForEach(elem => elem.AddManipulator(new Resizer()));
+        l_cartas4_6.ForEach(elem => elem.AddManipulator(new Resizer()));
+        l_cartas7_9.ForEach(elem => elem.AddManipulator(new Resizer()));
 
 
 
